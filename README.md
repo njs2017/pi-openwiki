@@ -4,6 +4,8 @@
 
 Automatically generates and maintains comprehensive documentation for your codebase using Pi's AI capabilities.
 
+**Based on [OpenWiki by LangChain](https://github.com/langchain-ai/openwiki)** - adapted as a Pi coding agent extension.
+
 ## Quick Start
 
 ```bash
@@ -130,6 +132,10 @@ Normal - means your code hasn't changed since last update.
 ## License
 
 MIT
+
+## Credits
+
+This Pi extension is based on [OpenWiki](https://github.com/langchain-ai/openwiki) by LangChain AI, adapted for the Pi coding agent ecosystem.
 
 ## Contributing
 
