@@ -1,0 +1,37 @@
+{
+  "name": "@openwiki/pi",
+  "version": "1.0.0",
+  "description": "Pi coding agent with OpenWiki documentation extension built-in",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "documentation",
+    "openwiki",
+    "ai-docs"
+  ],
+  "author": "OpenWiki Contributors",
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions"],
+    "video": "",
+    "image": ""
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.1.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "typebox": "^0.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barvhaim/pi-openwiki.git"
+  },
+  "homepage": "https://github.com/barvhaim/pi-openwiki#readme",
+  "bugs": {
+    "url": "https://github.com/barvhaim/pi-openwiki/issues"
+  }
+}
