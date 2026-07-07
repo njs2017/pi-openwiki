@@ -1,5 +1,7 @@
 # pi-openwiki
 
+[简体中文](README.zh-CN.md)
+
 > AI-powered documentation that stays current with your code
 
 Automatically generates and maintains comprehensive documentation for your codebase using Pi's AI capabilities.

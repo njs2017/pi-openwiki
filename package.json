@@ -9,11 +9,12 @@
     "openwiki",
     "ai-docs"
   ],
-  "author": "Bar Vhaim",
+  "author": "Barha",
   "license": "MIT",
   "files": [
     "extensions",
     "README.md",
+    "README.zh-CN.md",
     "LICENSE"
   ],
   "scripts": {
