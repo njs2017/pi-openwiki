@@ -1,4 +1,4 @@
-# @openwiki/pi
+# pi-openwiki
 
 > AI-powered documentation that stays current with your code
 
@@ -9,8 +9,8 @@ Automatically generates and maintains comprehensive documentation for your codeb
 ## Quick Start
 
 ```bash
-# Install
-pi install git:github.com/barvhaim/pi-openwiki
+# Install from npm
+pi install npm:pi-openwiki
 
 # Generate docs
 cd your-project
@@ -60,10 +60,13 @@ Ask questions about your codebase without modifying docs.
 
 ```bash
 # Global (use everywhere)
-pi install git:github.com/barvhaim/pi-openwiki
+pi install npm:pi-openwiki
 
 # Project-specific
-pi install -l git:github.com/barvhaim/pi-openwiki
+pi install -l npm:pi-openwiki
+
+# From GitHub
+pi install git:github.com/barvhaim/pi-openwiki
 
 # Temporary (this session only)
 pi -e git:github.com/barvhaim/pi-openwiki
@@ -85,6 +88,25 @@ pi -e /path/to/pi-openwiki
 - Pi >= 0.80.0
 - Git repository
 - Node.js with TypeScript
+
+## Package Gallery
+
+This package is prepared for the [Pi package gallery](https://pi.dev/packages). It is ready to publish as `pi-openwiki` and declares the required Pi package metadata:
+
+```json
+{
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
+```
+
+After publishing to npm, the package can be installed with:
+
+```bash
+pi install npm:pi-openwiki
+```
 
 ## Development
 
